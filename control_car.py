@@ -1,3 +1,8 @@
+'''
+Author: Tibor Camargo
+
+Control MountainCar-v0 using Conv-Net trained on WebCam
+'''
 import cv2
 import time
 import numpy as np
