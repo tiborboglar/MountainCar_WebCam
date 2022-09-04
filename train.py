@@ -21,15 +21,14 @@ CNN_FILTERS = [16, 32, 64]
 if __name__ == '__main__':
     # Retrieve data 
     dataloader = DataLoader(TRAIN_ROOT_DIR, None, TEST_ROOT_DIR, INPUT_SIZE, BATCH_SIZE)
-    train = dataloader.train
-    test = dataloader.test
+    train_ds = dataloader.train
 
     # Create model 
     MotorModel = MotorAIModel(input_size=INPUT_SIZE, filters=CNN_FILTERS)
     model = MotorModel()
 
     # Train model and save to disk
-    history = model.fit(x=train, epochs=5, shuffle=True, verbose=1)
+    history = model.fit(x=train_ds, epochs=5, shuffle=True, verbose=1)
 
     Path(CKPT_DIR).mkdir(parents=True, exist_ok=True)
     model.save(CKPT_DIR)
