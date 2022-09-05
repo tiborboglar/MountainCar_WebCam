@@ -54,7 +54,7 @@ Metrics: Accuracy, since it is a binary problem with a class balance of 50/50, o
 
 * c) Evaluate your code in real-time and explain if your model works or not. If it works why it works, if it does not then why it doesn’t.
 
-Qualitatively it works because I showed on video. Quantitatively the model outputs 300 FPS on a GeForce GTX 1060 6gb, since the camera FPS is lower than 30, the bottleneck for real-time inference is the camera itself, since the runtime for rendering the environment and resizing images is almost negligible, but around 30 FPS is already easy to solve the problem smoothly.
+Qualitatively it works because I showed on video. Quantitatively the model outputs around 300 FPS on a GeForce GTX 1060 6gb, since the camera FPS is lower than 30, the bottleneck for real-time inference is the camera itself, since the runtime for rendering the environment and resizing images is almost negligible, but around 30 FPS is already easy to solve the problem smoothly.
 
 * d) Explain within the report, your failed approaches in brief, what you learned from them
 
