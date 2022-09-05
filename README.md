@@ -9,7 +9,7 @@ I chose two gestures, open and closed hands. I chose them because I think it is 
 
 I simply created directories for `training` and `test`, where each directory comprises of two folders - `open` and `closed` - corresponding to images of its respective label. 
 
-The percentage of images in each label/class was kept in almost 50/50 for simplicity, and I decided to use small data to make it easy to overfit and for fast training and inferences.
+The percentage of images in each label/class was kept in almost 50/50 for simplicity, and I decided to use small images to make it easy to overfit and for fast training and inferences.
 
 Actually the test dataset here is not useful, in the sense that my environment is super controlled and I just needed to overfit my own data. But I created nevertheless, just to ensure that the training accuracy was correct.  
 
