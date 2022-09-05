@@ -59,3 +59,9 @@ Qualitatively it works because I showed on video. Quantitatively the model outpu
 * d) Explain within the report, your failed approaches in brief, what you learned from them
 
 Fortunately my code worked instantly.
+
+### Dataset Sample
+
+![open](https://user-images.githubusercontent.com/25236592/188477310-c0c3d548-95ad-481c-8de5-014865400c4d.PNG)
+![closed](https://user-images.githubusercontent.com/25236592/188477322-e54d1c3e-d1d1-4a75-bb13-057bb663ade8.PNG)
+
