@@ -1,8 +1,7 @@
 '''
 Author: Tibor Camargo
 
-Simple script to create a binary classification model
-
+Simple script to create dataset for a binary classification problem
 '''
 import os
 import cv2
