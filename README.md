@@ -18,7 +18,7 @@ Actually the test dataset here is not useful, in the sense that my environment i
 
 My dataset was created under very specific conditions, such as: lighting, distance of my hand, inclination, background, etc. It might fail under any other conditions, for example if my light is way more lit than it was by the time I recorded it. 
 
-The reason, as mentioned, is that I simply overfit my data, so I don't know which features were learned for determining if my hand was closed or open, it could be that the network learned that my hand is open because there is simply less skin-colored pixels in the scene, but I can only say that by assessing other data, and investigating which regions of an image is more activated by the network weights. 
+The reason, as mentioned, is that I simply overfittted my data, so I don't know which features were learned for determining if my hand was closed or open, it could be that the network learned that my hand is open because there is simply less skin-colored pixels in the scene, but I can only say that by assessing other data, and investigating which regions of an image is more activated by the network weights. 
 
 * d) What were the difficulties you faced and how did you overcome them? (If there
 were any difficulties)
