@@ -6,7 +6,7 @@ Control MountainCar-v0 using Conv-Net trained on WebCam
 import cv2
 import time
 import numpy as np
-from model import MotorAIModel
+from model import ControlCarModel
 import gym
 
 
@@ -16,7 +16,7 @@ CKPT_DIR = 'saved_models/my_model/'
 
 if __name__ == '__main__':
     # Load model and weights
-    Model = MotorAIModel(input_size=INPUT_SIZE)
+    Model = ControlCarModel(input_size=INPUT_SIZE)
     model = Model.model
     model.load_weights(CKPT_DIR)
 
