@@ -1,6 +1,6 @@
 # Control a car with your Web Cam! 
 
-* Fun repository with an end-to-end solution to control OpenAI Mountain Car using your own webcam.
+* Fun repository with an end-to-end solution to control OpenAI's Mountain Car using your own webcam. The model is based on Tensorflow Keras.
 
 `capture_dataset.py`: Use CLI to save frames from your webcam, you can define the split name and the label name.
 
