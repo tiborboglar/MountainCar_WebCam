@@ -19,7 +19,7 @@ from keras.layers import (
     )
 
 
-class MotorAIModel:
+class ControlCarModel:
     def __init__(
         self, 
         input_size: Tuple[int, int], 
@@ -76,5 +76,5 @@ class MotorAIModel:
 
 
 if __name__ == '__main__':
-    model = MotorAIModel(input_size=(256, 256))
+    model = ControlCarModel(input_size=(256, 256))
     print(model)
