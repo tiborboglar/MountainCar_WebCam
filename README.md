@@ -2,7 +2,7 @@
 
 * Fun repository with an end-to-end solution to control OpenAI's Mountain Car using your own webcam. The model is based on Tensorflow Keras.
 
-`capture_dataset.py`: Use CLI to save frames from your webcam, you can define the split name and the label name.
+`capture_dataset.py`: Use CLI to save frames from your webcam, you can define whether the frames splits are used for training/testing/validating, and also the label names.
 
 `dataloader.py`: Easily generate a tensorflow data loader for each split (train/val/test), applying normalization and some baisc data augmentation. Contains visualization function to visualize a batch of data, and ensures augmentation only on training split.
 
