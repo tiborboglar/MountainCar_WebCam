@@ -1,4 +1,4 @@
-# Control a car with your Web Cam! 
+# Control a car with your Web Cam! :D
 
 * Fun repository with an end-to-end solution to control OpenAI's Mountain Car using your own webcam. The model is based on Tensorflow Keras.
 
